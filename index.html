@@ -1,0 +1,1043 @@
+<!--
+
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    <!--added for timelime-->
+    <style>
+h1 {
+  text-align: center;
+  color: transparent;
+text-shadow: -4px 4px hsla(0, 0%, 70%, .4),
+             -3px 3px hsla(0, 0%, 60%, .2),
+             -2px 2px hsla(0, 0%, 70%, .2),
+             -1px 1px hsla(0, 0%, 70%, .2),
+             0px 0px hsla(0, 0%, 50%, .5),
+             1px -1px hsla(0, 0%, 30%, .6),
+             2px -2px hsla(0, 0%, 30%, .7),
+             3px -3px hsla(0, 0%, 32%, .8),
+             4px -4px hsla(0, 0%, 30%, .9),
+             5px -5px hsla(0, 0%, 30%, 1.0);
+
+}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+<!--upto here for timelime-->
+
+
+<!-- Primary Meta Tags -->
+<title>JWOC</title>
+
+<link rel="icon" href="assets/img/team/logo.png">
+<!-- Fontawesome -->
+<link type="text/css" href="../../vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+<!-- Pixel CSS -->
+<link type="text/css" href="style.css" rel="stylesheet">
+<link type="text/css" href="stylenav.css" rel="stylesheet">
+
+
+
+
+<!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
+
+</head>
+
+<body>
+    <header class="head" >
+        <a href="index.html" class="logo"><span class="logo-hover"><span class="jgec"><strong>JGEC</strong></span> Winter Of Code</span></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        
+        <ul class="menu">
+            
+            <li><a href="#about"  onclick="toggleMenu();"><span class="links"><b>ABOUT</b></span></a></li>
+            <li><a href="#register"  onclick="toggleMenu();"><span class="links"><b>REGISTER</b></span></a></li>
+            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links"><b>TIMELINE</b></span></a></li>
+            <li><a href="#project"  onclick="toggleMenu();"><span class="links"><b>PROJECTS</b></span></a></li>
+            <li><a href="#team"  onclick="toggleMenu();"><span class="links"><b>TEAM</b></span></a></li>
+            <li><a href="#contact"  onclick="toggleMenu();"><span class="links"><b>CONTACT US</b></span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn links" ><b>MORE</b><span class="fas fa-angle-down nav-link-arrow ml-2"></span></a>
+                <ul class="dropdown-content">
+                  <a href="#"><b>Leaderboard</b></a>
+                  <a href="#faq"><b>FAQ</b></a>
+                  <a href="#"><b>Code of Conduct</b></a>
+                </ul>
+            </li> 
+        </ul>
+    
+    </header>
+    
+    <main>
+        <!-- ABOUT -->
+        <div class="section section-header pb-4" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-8 text-center">
+                        <h1 class="h1 mb-4">JGEC WINTER OF CODE</h1>
+                        <p class="lead mb-5">
+                            JWoC ( JGEC Winter of Code) is a program organised by Developers JGEC in collaboration with Sristi 2020 which helps students to plunge into Open Source contribution and get the realm of Software Development.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary p-2" href="./assets/JWoC_Mentor.pdf" download="JWoC_Mentor_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Student Manual</a>
+
+
+                            <a class="btn btn-primary ml-3 p-2" href="./assets/JWoC_Student.pdf" download="JWoC_Student_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Mentor Manual</a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div> 
+        <!-- Section -->
+        <section class="section section-lg pt-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-md-6 col-xl-6 mb-5">
+                        <div class="card bg-primary shadow-soft border-light organic-radius p-5">
+                            <div class="card bg-primary shadow-soft border-light organic-radius p-3">
+                                <img class="img-fluid" src="assets/img/team/logo.png" alt="modern desk">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-5 text-center text-md-left">
+                        <h2 class="h3 mb-4">JWoC-HOW IT WORKS?</h2>
+                        <p class="lead">Participants (restrained to 1st and 2nd year undergraduate students) participate for the program. Mentors willing to Open Source their projects in JWoC submit their proposals. The best projects are selected for this program. Students get acquainted about the projects from the mentors during the Community Bonding Period. Students work on these projects during the coding phase. At the end of the coding period, the winners of the programs are announced on the basis of their contribution in terms of quantity as well as quality.</p>
+                        <p class="lead">For more information on the event download the student or mentor manual respectively.</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary ml-3 p-2 text-center" href="./assets/JWoC_Code_of_Conduct.pdf" download="JWoC_Code_of_Conduct" target="blank"><span class="fas fa-book-reader mr-2"></span>Code of Conduct</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of section -->
+        <!-- Section -->
+        
+        
+            <div class="container">
+                <div class="d-flex justify-content-between pb-1">
+                    <div class="text-center">
+                        <!-- Visit Box -->
+                        <div class="icon-box mb-4">
+                            <div class="icon icon-shape-sm shadow-soft border border-light rounded-circle mb-2">
+                                <span class="far fa-lightbulb"></span>
+                            </div>
+                            <h3 class="h6">Projects</h3>
+                            <span class="counter display-4 text-gray d-block">50+</span>
+                        </div>
+                        <!-- End of Visit Box -->
+                    </div>
+                    <div class="text-center">
+                        <!-- Visit Box -->
+                        <div class="icon-box mb-4">
+                            <div class="icon icon-shape-sm shadow-soft border border-light rounded-circle mb-2">
+                                <span class="fas fa-school"></span>
+                            </div>
+                            <h3 class="h6">Colleges</h3>
+                            <span class="counter display-4 text-gray d-block">20+</span>
+                        </div>
+                        <!-- End of Visit Box -->
+                    </div>
+                    <div class="text-center">
+                        <!-- Call Box -->
+                        <div class="icon-box mb-4">
+                            <div class="icon icon-shape-sm shadow-soft border border-light rounded-circle mb-2">
+                                <span class="fas fa-book-reader"></span>
+                            </div>
+                            <h3 class="h6">Students</h3>
+                            <span class="counter display-4 text-gray d-block">200+</span>
+                        </div>
+                        <!-- End of Call Box -->
+                    </div>
+                    <div class="text-center">
+                        <!-- Email Box -->
+                        <div class="icon-box mb-1">
+                            <div class="icon icon-shape-sm shadow-soft border border-light rounded-circle mb-2">
+                                <span class="fas fa-chalkboard-teacher"></span>
+                            </div>
+                            <h3 class="h6">Mentors</h3>
+                            <span class="counter display-4 text-gray d-block">25+</span>
+                        </div>
+                        <!-- End of Email Box -->
+                    </div>
+                </div>
+            </div>
+        <!--ABOUT END-->
+
+
+
+        <!--REGISTER-->
+        <div class="section-header pb-5 overflow-hidden text-center" id="register">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="alert shadow-inset ">
+                                
+                                    <h1><strong>Registration</strong></h1>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section section-lg pt-0 overflow-hidden">
+            <div class="container">
+    <div class="row justify-content-center">       
+     <div class="row">
+            <div class="col-12">
+            <div class="card bg-primary shadow-soft border-light px-4 py-1 mb-5">
+                <div class="card-body text-center text-md-left">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2 class="mb-3">Become a Mentee</h2>
+                            <p class="mb-4">
+                                if you are new to open source world or have some experience in open source and want to contribute in some amazing open source projects register as a mentee.
+                            </p>
+                            <a href="#" class="btn btn-primary">
+                                <span class="mr-1">
+                                    <span class="fas fa-user-graduate"></span>
+                                </span>
+                                Mentee's Registration
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-3 mt-4 mt-md-0 text-md-right">
+                            <img src="img/undraw_web_developer_p3e5.svg" alt="illustration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="col-12">
+            <div class="card bg-primary shadow-soft border-light px-4 py-0 mb-6">
+                <div class="card-body text-center text-md-left">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2 class="mb-3">Become a Mentor</h2>
+                            <p class="mb-4">
+                              if you have some unique projects which you are willing to add some features or complete it by open sourcing them , we encourage you to apply for mentorship in our program.
+                            </p>
+                            <a href="#" class="btn btn-primary">
+                                <span class="mr-1">
+                                    <span class="fas fa-file-invoice"></span>
+                                </span>
+                                Mentor's Registration
+                            </a>
+                        </div>
+                        <div class="col-5 col-md-3 mt-0  text-md-right ">
+                            <img src="img/undraw_teaching_f1cm.svg" class="card-img-top rounded-top"  alt="illustration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+        <!--REGISTER END-->
+
+
+         <!-- TIMELINE START -->
+
+         <div class="section-header pb-5 overflow-hidden text-center" id="time">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="alert shadow-inset ">
+                                
+                                    <h1><strong>Timeline</strong></h1>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<div class="timeline-wrapper" id="timeliner">
+  <ul class="timeline">
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>December 25</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="JWoC Program Announced"><b>JWoC Program Announced</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+      
+      
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>December 25</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Mentor & Mentee Registration"><b>Mentor & Mentee Registration</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 15</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Mentor Registration ends"><b>Mentor Registration ends</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>January 17</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Projects Announced"><b>Projects Announced</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 18</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Community Bonding Starts"><b>Community Bonding Starts</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>January 20</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Community Bonding Ends"><b>Community Bonding Ends</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 21</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Coding Period Starts"><b>Coding Period Starts</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+         <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>February 9</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Phase I Completion"><b>Phase I Completion</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                 <span style="color:red"><b>February 19</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Phase II Ends - JWoc Ends"><b>Phase II Ends - JWoc Ends</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+         <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                 <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>February 24</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Results Announced"><b>Results Announced</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+
+  </ul>
+</div>
+
+
+
+
+ <!-- End of TIMELINE -->
+
+
+
+
+
+
+
+        <!--PROJECT HIGHLIGHTS-->
+        <div class="section-header pb-6 overflow-hidden text-center " id="project">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <div class="alert shadow-inset ">
+                                
+                                    <h2>Selected projects will be announced on <b style="color: rgb(202, 106, 106);">17th January</b>.</h2>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--TEAM-->
+        <div class="section-header pb-6 overflow-hidden text-center " id="team">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="alert shadow-inset ">
+                                
+                                    <h1>Our <strong>Team</strong></h1>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <section class="section section-lg pt-0">
+    
+            <div class="container">
+                <!-- Title -->
+                <!-- <div class="row"> -->
+                    
+                    <!-- <div class="col text-center"> -->
+                        <!-- <h1 class="mb-7"><strong>Our Team</strong></h1> -->
+                        
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- End of title-->
+                <div class="row justify-content-between">
+        
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/chiraag.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Chiraag Kakar</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Program Manager , Lead Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/0212Chiraag"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/chiraag-kakar"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/chiraag-kakar"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/yogesh.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Yogesh Jha</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Web Team , Lead Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/yogesh.jha.101198"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/hound77"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/yogesh-jha-8b5160170/"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>
+        
+                    
+        
+        
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/sruti.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Sruti Chatterjee</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Program Manager , Lead Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/sruti.chatterjee.73"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/sruti2024"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/sruti-chatterjee-38373019a"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>
+        
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/koulick.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Koulick Sadhu</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Web Team , Co-Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/koulick.sadhu"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/KoulickS/"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/koulick-sadhu/"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/srijan.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Srijan De</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Web Team , Co-Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/thesrijande"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/thesrijande"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/thesrijande"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>
+        
+        
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                        <!-- Profile Card -->
+                        <div class="profile-card mb-5">
+                            <div class="card bg-primary shadow-soft border-light">
+                                <div class="profile-image bg-primary shadow-inset border border-light rounded-circle p-3 ml-3 mt-n5">
+                                    <img src="./assets/img/team/utkarsh.jpeg" class="card-img-top rounded-circle" alt="Christopher Avatar">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 mb-2"><b>Utkarsh Pandey</b></h3>
+                                    <span class="h6 font-weight-normal text-gray mb-3">Program Manager , Co-Organiser</span>
+                                    <div class="btn-wrapper my-4">
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="facebook" title="facebook">
+                                            <a href="https://facebook.com/profile.php?id=100006881236840"><span aria-hidden="true" class="fab fa-facebook-f"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill  btn-icon-only text-twitter mr-2" type="button" aria-label="twitter" title="twitter">
+                                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                                        </button> -->
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-github mr-2" type="button" aria-label="github" title="github">
+                                            <a href="https://github.com/utkarshpandey6"><span aria-hidden="true" class="fab fa-github"></span></a>
+                                        </button>
+                                        <button class="btn btn-primary btn-pill btn-icon-only text-facebook mr-2" type="button" aria-label="linkedin" title="linkedin">
+                                            <a href="https://linkedin.com/in/utkarsh-pandey-95015b170/"><span aria-hidden="true" class="fab fa-linkedin"></span></a>
+                                        </button>
+                                        <!-- <button class="btn btn-primary btn-pill btn-icon-only text-instagram mr-2" type="button" aria-label="instagram" title="instagram">
+                                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                                        </button> -->
+                                    </div>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Profile Card -->
+                    </div>            
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--TEAM END-->
+
+        <!--PROJECT-->
+
+        <!--TIMELINE-->
+        
+        
+
+
+
+
+        <!--TIMELINE END-->
+        
+
+
+
+        <!--FAQ AND CONTACT-->
+        
+   
+            <!-- Title -->
+                    <div class="row" id="faq">
+                        <div class="col text-center">
+                            <div class="my-5">
+                                <span class="h5 text-center" ><strong>Frequently asked questions</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <!--Accordion-->
+                            <div class="accordion shadow-soft rounded">
+                                <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-4" data-target="#panel-4" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fab fa-leanpub"></span>I am not a student of JGEC can I participate</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-4">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                               Yes, you can definitely participate.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-5" data-target="#panel-5" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-graduation-cap"></span>I am a beginner can I participate?</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-5">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                                There is no such restriction but with some amount of development knowledge in any domain will be good to go</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-6" data-target="#panel-6" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-users"></span>Can I participate as a team?</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-6">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                                No, this is an individual event</div>
+                                    </div>
+                                </div>
+                                 <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-7" data-target="#panel-7" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-box-open"></span>I don't know open source can I participate?</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-7">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                                Then you must participate, because the aim of our event is to get more people into open source development. 
+                                            </div>
+                                    </div>
+                                </div>
+                                 <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-8" data-target="#panel-8" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-hourglass"></span>Can I participate both as mentee and mentor?</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-8">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                                No we don't encourage that.</div>
+                                    </div>
+                                </div>
+                                <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-9" data-target="#panel-9" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-certificate"></span>What perks will I get?</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-9">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                                Let's keep that a secret, but we promise you that you won't be dissapointed. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-sm card-body bg-primary border-light mb-0">
+                                    <a href="#panel-10" data-target="#panel-10" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                        <span class="icon-title h6 mb-0 font-weight-bold"><span class="fas fa-comments"></span>My question is not listed in here</span>
+                                        <span class="icon"><span class="fas fa-plus"></span></span>
+                                    </a>
+                                    <div class="collapse" id="panel-10">
+                                        <div class="pt-3">
+                                            <p class="mb-0">
+                                               Contact us , we will be happy to help you. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End of Accordion-->
+                        </div>
+                    </div>
+            
+        <!-- End of section -->
+               
+    </main>
+
+
+
+ <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light bg-primary" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                <h3 style="font-size: 60px;"><strong>JWOC</strong></h3> <br><p style="font-family: 'Montserrat Subrayada', sans-serif;font-size:15px;color: #696969;">JGEC Winter of Code</p>
+                
+            </div>
+
+
+
+            <!-- <div class="col-6 col-lg-2 mb-5 mb-lg-0">
+                <h5>Themesberg</h5>
+                <ul class="footer-links list-unstyled mt-2">
+                    <li class="mb-1"><a class="p-2" target="_blank" href="https://themesberg.com/blog">Blog</a></li>
+                    <li class="mb-1"><a class="p-2" target="_blank" href="https://themesberg.com/products">Products</a></li>
+                    <li class="mb-1"><a class="p-2" target="_blank" href="https://themesberg.com/about">About Us</a></li>
+                    <li><a class="p-2" target="_blank" href="https://themesberg.com/contact">Contact Us</a></li>
+                </ul>
+            </div> -->
+
+            <div class="col-12 col-lg-6 mb-5 mb-lg-0" style="border-left: 1px solid #D3D3D3; 
+            height: 250px; ">
+                <h5>Contact Us</h5>
+                <br><p>Feel free to contact us we will love to hear from you. For any queries mail us [email protected].
+ Join our discord channel.
+ For latest updates follow us on:</p><br>
+                <ul class="d-flex list-unstyled mb-5 mb-lg-0">
+                    <!-- <li class="mr-2">
+                        <a href="https://twitter.com/themesberg" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="twitter social link"
+                        data-toggle="tooltip" data-placement="top" title="Follow @themesberg on Twitter">
+                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                        </a>
+                    </li> -->
+                    <li class="mr-2">
+                        <a href="https://www.facebook.com/jwoc2k20/" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="facebook social link"
+                        data-toggle="tooltip" data-placement="top" title="Like @jwoc2k20 on Facebook">
+                            <span aria-hidden="true" class="fab fa-facebook"></span>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="https://github.com/jwoc" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="github social link"
+                        data-toggle="tooltip" data-placement="top" title="Open source projects">
+                            <span aria-hidden="true" class="fab fa-github"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/download" target="_blank" class="btn btn-icon-only btn-pill btn-primary" aria-label="dribbble social link"
+                        data-toggle="tooltip" data-placement="top" title="Follow us on Discord">
+                            <span aria-hidden="true" class="fab fa-discord"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-12 col-lg-3 mb-5 mb-lg-0" style="border-left: 1px solid #D3D3D3; 
+            height: 250px; ">
+                <h5>Sponsors</h5>
+                <p class="text-gray font-small mt-2">Cheers to our sponsors.</p>
+                <ul class="footer-links list-unstyled mt-2">
+                    <li class="mb-1"><a class="p-2" href="https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/" target="_blank">GDG Siliguri
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="p-2" href="https://themesberg.com/docs/pixel-bootstrap/getting-started/changelog" target="_blank">Github</a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="p-2" target="_blank" href="https://themesberg.com/licensing">Progate</a>
+                    </li>
+                    
+                </ul>
+                </div>
+        </div>
+        <hr class="my-5">
+        <div class="row">
+            <div class="col">
+                <a href="https://jwoc.com" target="_blank" class="d-flex justify-content-center">
+                    <img src="assets/img/team/logo.png" height="50" class="mb-3" alt="jwoc Logo">
+                </a>
+            <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                <p class="font-weight-normal font-small mb-0">Copyright © JWOC
+                    <span class="current-year">2020</span>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+ <script src="ext.js" language="javascript"></script>
+    <!-- Core -->
+    <script src="contact_min.js"></script>
+    <script src="contact_bootstrap.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
